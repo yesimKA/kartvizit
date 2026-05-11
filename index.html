@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fizyoterapist Yeşim Karakurt Abacı</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #f7efe7, #e9d8c8);
+      color: #3b2f2f;
+      display: flex;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 430px;
+      background: #fffaf6;
+      border-radius: 28px;
+      padding: 22px;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #7a4f3a;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 18px;
+      color: #6b5b55;
+    }
+
+    video {
+      width: 100%;
+      border-radius: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 22px rgba(0,0,0,0.12);
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      display: block;
+      text-decoration: none;
+      padding: 15px 18px;
+      border-radius: 18px;
+      background: #b98b68;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      transition: 0.2s ease;
+    }
+
+    .btn:hover {
+      background: #9f7556;
+      transform: translateY(-2px);
+    }
+
+    .btn.secondary {
+      background: #7a4f3a;
+    }
+
+    .btn.secondary:hover {
+      background: #5f3c2c;
+    }
+
+    .footer {
+      margin-top: 22px;
+      font-size: 12px;
+      color: #8a7a72;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="logo">Fizyoterapist Yeşim Karakurt Abacı</div>
+
+    <div class="subtitle">
+      Özel Sağlık Meslek Hizmet Birimi <br>
+      Pediatrik fizyoterapi, gelişim takibi ve aile danışmanlığı
+    </div>
+
+    <!-- ANA TANITIM VİDEOSU -->
+    <video autoplay muted loop playsinline controls>
+      <source src="tanitim-video.mp4" type="video/mp4">
+      Tarayıcınız video oynatmayı desteklemiyor.
+    </video>
+
+    <div class="buttons">
+
+      <a class="btn" href="tanitim-video.mp4" target="_blank">
+        Tanıtım Videosu
+      </a>
+
+      <a class="btn" href="ofis-video.mp4" target="_blank">
+        Ofis Videosu
+      </a>
+
+      <a class="btn" href="https://maps.google.com/ Tevfik Bey, Şht. Erol Olçok Cd Çağlayan Sitesi NO:21/23 İç Kapı No:81, 34100 Küçükçekmece/İstanbul" target="_blank">
+        Konum Bilgisi
+      </a>
+
+      <a class="btn secondary" href="https://forms.gle/https://docs.google.com/forms/d/e/1FAIpQLSeuJi832Z9dC1FCEgLcDsG89TxAB4rqxvkFTLWQlNbPE7AxOQ/viewform?usp=header" target="_blank">
+        Randevu Formu
+      </a>
+
+      <a class="btn secondary" href="https://wa.me/905315960619" target="_blank">
+        WhatsApp İletişim
+      </a>
+
+    </div>
+
+    <div class="footer">
+      Tanışmak ve detaylı bilgi almak için bağlantılardan bize ulaşabilirsiniz.
+    </div>
+
+  </div>
+</body>
+</html>
